@@ -78,8 +78,8 @@ public class MaxSubSequence {
     }
 
     private static long max3(long num1, long num2, long num3) {
-        long temp1 = Long.max(num1, num2);
-        return Long.max(temp1, num3);
+        long temp1 = Math.max(num1, num2);
+        return Math.max(temp1, num3);
     }
 
     public static long maxSub4(long[] seq) {
